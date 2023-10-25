@@ -1,5 +1,6 @@
 import java.util.Iterator;
 import java.util.ArrayList;
+import adaptor.*;
 public class PrintAll {
 
     public static void main(String[] args){

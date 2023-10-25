@@ -1,3 +1,4 @@
+package adaptor;
 import java.util.StringTokenizer;
 import java.util.Iterator;
 public class StringTokenizerAdapter extends StringTokenizer 

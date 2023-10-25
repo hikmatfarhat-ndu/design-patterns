@@ -1,8 +1,0 @@
-{
-    "java.project.sourcePaths": [
-        "adaptor",
-        "factory",
-        "observer",
-        "singleton"
-    ]
-}
