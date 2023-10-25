@@ -1,3 +1,4 @@
+package factory;
 public class PushNotification implements Notification{
 
     @Override

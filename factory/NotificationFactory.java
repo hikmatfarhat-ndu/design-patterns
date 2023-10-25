@@ -1,3 +1,4 @@
+package factory;
 public class NotificationFactory {
     public Notification createNotification(String type){
         if(type == null || type.isEmpty()){

@@ -1,3 +1,4 @@
+package observer;
 public class NewsDriver {
     public static void main(String[] args){
         NewsAgency observable = new NewsAgency();

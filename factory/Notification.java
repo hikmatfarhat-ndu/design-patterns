@@ -1,4 +1,4 @@
+package factory;
 public interface  Notification {
-    void notifyUser();
-    
+    void notifyUser(); 
 }

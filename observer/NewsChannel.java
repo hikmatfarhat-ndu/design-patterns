@@ -1,3 +1,4 @@
+package observer;
 public class NewsChannel implements Observer {
     private String news;
     private String name;
