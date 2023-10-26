@@ -1,0 +1,35 @@
+@startuml
+
+ Interface Shape{
++draw():void
+}
+
+class Circle{
++draw():void
+}
+class Rectangle{
++draw():void
+}
+Shape <|-- Circle: "implements"
+Shape <|-- Rectangle
+
+
+abstract class ShapeDecorator { 
+  +shape:Shape
+  +ShapeDecorator()
+  +draw():void
+} 
+ShapeDecorator --> Shape:"decorates"
+class RedShapeDecorator {
+-shape:Shape
++RedShapeDecorator()
++draw():void
+-SetRedBorder()
+}
+ShapeDecorator <|-- RedShapeDecorator
+class Client{
+
++main():void
+}
+Client --> RedShapeDecorator:"uses"
+@enduml
