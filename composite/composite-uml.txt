@@ -1,0 +1,29 @@
+@startuml
+
+ Interface Employee{
++showDetails():void
+}
+
+class Developer{
++showDetails():void
+}
+class Accountant{
++showDetails():void
+}
+class Unit{
++showDetails():void
++addChild(Employee):void
++removeChild(Empoyee):void
+}
+class Client{
++main():void
+}
+Client --> Employee
+Unit o-- "1..*" Employee:children
+Employee <|.. Unit
+Employee<|.. Accountant
+
+Employee <|.. Developer
+
+
+@enduml
