@@ -1,4 +1,5 @@
 import decorator.*;
+/* taken from geeksforgeeks */
 public class DecoratorPatternDemo {
    public static void main(String[] args) {
 
